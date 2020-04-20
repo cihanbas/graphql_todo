@@ -1,0 +1,15 @@
+{
+  "name": "apolloServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ext js,graphql index"
+  },
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "graphql": "^15.0.0",
+    "graphql-import": "^1.0.2",
+    "lodash": "^4.17.15"
+  }
+}
